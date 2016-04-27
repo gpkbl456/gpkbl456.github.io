@@ -12,6 +12,7 @@
     .btn {background-color: #eaeaea; color: #363636; border: none; z-index: 2;
           font-weight: bolder; width: 24px; height: 24px; border-radius: 20px;
           position:absolute; top: 10px; left: 540px; cursor: pointer; }
+    .blockUI {cursor: default}
     </style>
   </head>
   <body background="img/blue sunset.jpg">
@@ -39,7 +40,7 @@
             }
       });
   });
-  $('#btn').click(function () {
+  $('.btn').click(function () {
     $.unblockuUI();
   })
 
