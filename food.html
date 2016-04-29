@@ -8,6 +8,10 @@
   	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <style>
     .btn {background-color: #eaeaea; color: #363636; border: none; z-index: 2;
           font-weight: bolder; width: 24px; height: 24px; border-radius: 20px;
@@ -45,6 +49,9 @@
         <p>白天的時候不怎麼搶眼，所以平時常沒注意到這裡</p>
         <p>去的時候是晚上，感覺還不錯。</p>
           <br>
+          <a href="img/food/light.jpg"><img src="img/food/light.jpg" alt="light" width="240px" height="160px"/></a>
+          <a href="img/food/night.jpg"><img src="img/food/night.jpg" alt="night" width="240px" height="160px"/></a>
+          <br>
         <p>進去之後分別點了套餐，套餐是附贈飲料跟選沾醬</p>
         <p>之後去冰箱拿了飲料後開始等</p>
         <p>上菜時間有點久，等了大概快20分鐘</p>
@@ -66,7 +73,6 @@
   </body>
 <script>
   $(document).ready(function () {
-    $('body').scrollTop(0);
 
     $.blockUI({ message: $('#msg'),
         css: {
