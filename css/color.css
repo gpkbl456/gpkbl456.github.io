@@ -3,6 +3,6 @@
 .bule {color: #00f}
 .red {color: #f00}
 @font-face {font-family: "Emblema One";
-        src:local("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+        src:url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
             url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");}
 h1 {font-family: "Emblema One"}
