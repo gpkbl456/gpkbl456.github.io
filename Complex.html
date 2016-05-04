@@ -20,5 +20,17 @@
         <p>&nbsp;&nbsp;&nbsp;獨釣寒江雪</p>
       </div>
     </div>
+    <div id="msg" style="height: 120px; width: 400px">
+
+    </div>
   </body>
+  <script>
+  window.onload = function () {
+          var ua = (/Firefox/i.test(navigator.userAgent)) ? 'Firefox' :
+           (/Chrome/i.test(navigator.userAgent)) ? 'Chrome' :
+           (/MSIE/i.test(navigator.userAgent)) ? 'IE' :
+'非 Firefox/Chrom/IE 瀏覽器';
+          document.getElementById('msg').innerHTML = ua;
+      }
+  </script>
 </html>
