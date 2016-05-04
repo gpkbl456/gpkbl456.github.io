@@ -25,12 +25,15 @@
     </div>
   </body>
   <script>
-  window.onload = function () {
-          var ua = (/Firefox/i.test(navigator.userAgent)) ? 'Firefox' :
-           (/Chrome/i.test(navigator.userAgent)) ? 'Chrome' :
-           (/MSIE/i.test(navigator.userAgent)) ? 'IE' :
-'非 Firefox/Chrom/IE 瀏覽器';
-          document.getElementById('msg').innerHTML = ua;
-      }
+    window.onload = function () {
+      var ua = (/Firefox/i.test(navigator.userAgent)) ? 'Firefox' :
+      (/Chrome/i.test(navigator.userAgent)) ? 'Chrome' :
+      (/MSIE/i.test(navigator.userAgent)) ? 'IE' :
+      '非 Firefox/Chrom/IE 瀏覽器';
+      document.getElementById('msg').innerHTML = ua;
+    }
+    $(document).ready(function() {
+      $(".poetry").straight({words:5});          
+    });
   </script>
 </html>
