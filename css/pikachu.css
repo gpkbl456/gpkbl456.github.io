@@ -10,7 +10,7 @@
 .c3 div {height: 200px; width: 280px; text-align: center; position: absolute; top: 15.2%; left: 22.5%; color: #9c5200;}
 .c4 {height: 250px; width: 250px; background-color: #fff; position: absolute; top: 17.7%; left: 55%;}
 .c4 img {position: absolute; top: 19%; left: 18%;}
-.c5 {height: 100px; width: 100px; background-color: #c52018; position: absolute;}
+.c5 {height: 100px; width: 100px; background-color: #c52018; position: fixed; top: 66%; left: 79%;}
 .c5 div {position: absolute; color: #fff; top: 5%; left: 17%;}
 .c5 div a {position: absolute; left: 24.5%;}
 .c6 {height: 190px; width: 190px; background-color: #e65a41; position: absolute; top: 84%; left: 39%;}
