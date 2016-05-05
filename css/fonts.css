@@ -1,5 +1,5 @@
 @font-face {font-family: 'newFont';
-              src: url('fonts/UntitledTTF.woff') format('woff'),
-                   url('fonts/UntitledTTF.ttf') format('truetype'),
-                   url('fonts/UntitledTTF.svg#UntitledTTF') format('svg');
+              src: url('/fonts/UntitledTTF.woff') format('woff'),
+                   url('/fonts/UntitledTTF.ttf') format('truetype'),
+                   url('/fonts/UntitledTTF.svg#UntitledTTF') format('svg');
               font-weight: bold;}
