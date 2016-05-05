@@ -1,3 +1,5 @@
-@font-face {font-family: "newFont";
-            src: url("http://gpkbl456.github.io/fonts/Teasel.ttf") format("truetype");
-            font-weight: bold;}
+@font-face {font-family: 'UntitledTTF';
+              src: url('UntitledTTF.woff') format('woff'),
+                   url('UntitledTTF.ttf') format('truetype'),
+                   url('UntitledTTF.svg#UntitledTTF') format('svg');
+              font-weight: bold;}
