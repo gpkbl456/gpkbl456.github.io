@@ -6,6 +6,7 @@
 .c2 {height: 250px; width: 250px; background-color: #915200; }
 .c3 {height: 500px; width: 500px; background-color: #fff; position: absolute; top:23%; left:37%}
 .c3 div {height: 200px; width: 280px; text-align: center; position: absolute; top: 15.2%; left: 22.5%;}
-.c4 {height: 250px; width: 250px; background-color: #fff; }
+.c4 {height: 250px; width: 250px; background-color: #fff; position: absolute; top: 11.7%; left: 55%;}
+.c4 img {position: absolute; top: 19%; left: 18%;}
 .c5 {height: 250px; width: 250px; background-color: #c52018; }
 .c6 {height: 250px; width: 250px; background-color: #e65a41; }
