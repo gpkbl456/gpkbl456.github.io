@@ -3,8 +3,9 @@
           -moz-border-radius: 50%;
           border-radius: 50%;}
 .c1 {height: 250px; width: 250px; background-color: #e65a41; }
-.c2 {height: 250px; width: 250px; background-color: #e65a41; }
-.c3 {height: 450px; width: 450px; background-color: #fff; position: absolute; top:40%; left:50%}
+.c2 {height: 250px; width: 250px; background-color: #915200; }
+.c3 {height: 500px; width: 500px; background-color: #fff; position: absolute; top:40%; left:50%}
+.c3 div {height: 200px; width: 280px; text-align: center; position: absolute; top: 15.2%; left: 22.5%;}
 .c4 {height: 250px; width: 250px; background-color: #fff; }
-.c5 {height: 250px; width: 250px; background-color: #e65a41; }
+.c5 {height: 250px; width: 250px; background-color: #c52018; }
 .c6 {height: 250px; width: 250px; background-color: #e65a41; }
