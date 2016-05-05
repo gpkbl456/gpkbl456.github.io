@@ -2,8 +2,9 @@
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
           border-radius: 50%;}
-.c0 {position: absolute; background: #f6bd20; }
-.c0 a {color: #fff;}
+.c0 {position: fixed; background: #f6bd20; height: 50px; width: 50px; left: 1.5%; top: 3%;}
+.c0 a {position: absolute; top: 26%; left: 18%; text-decoration: none;}
+.c0 a:hover {text-decoration: underline;}
 .c1 {height: 290px; width: 290px; background-color: #e65a41; position: absolute; left: 34%;}
 .c1 div {position: absolute; color: #f6e652; top: 27%; left: 29%;}
 .c2 {height: 280px; width: 280px; background-color: #915200; color: #fff; position: absolute; top: 31.6%; left: 25%;}
