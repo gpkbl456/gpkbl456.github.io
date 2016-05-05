@@ -2,6 +2,8 @@
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
           border-radius: 50%;}
+.c0 {position: absolute; background: #f6bd20; }
+.c0 a {color: #fff;}
 .c1 {height: 290px; width: 290px; background-color: #e65a41; position: absolute; left: 34%;}
 .c1 div {position: absolute; color: #f6e652; top: 27%; left: 29%;}
 .c2 {height: 280px; width: 280px; background-color: #915200; color: #fff; position: absolute; top: 31.6%; left: 25%;}
