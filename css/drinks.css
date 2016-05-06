@@ -19,8 +19,8 @@ a {color: #fdf9d6; text-decoration: none;}
 a:hover {text-decoration: underline;}
 .border {height: 500px; width: 500px; background: #2f2525; float: left; text-align: center; font-family: 'AngryChalk'}
 @font-face {font-family: 'AngryChalk';
-            src: url('AngryChalk.woff') format('woff'),
-            url('AngryChalk.ttf') format('truetype'),
-            url('AngryChalk.svg#AngryChalk') format('svg');
+            src:url('/fonts/AngryChalk.woff') format('woff'),
+                url('/fonts/AngryChalk.ttf') format('truetype'),
+                url('/fonts/AngryChalk.svg#AngryChalk') format('svg');
             font-weight: normal;
             font-style: normal;}
