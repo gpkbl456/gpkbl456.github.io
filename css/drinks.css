@@ -1,8 +1,10 @@
-.box1 {height: 50px; width: 50px; background: #ccc;}
-.box2 {height: 50px; width: 50px; background: #ccc;}
-.box3 {height: 50px; width: 50px; background: #ccc;}
-.box4 {height: 50px; width: 50px; background: #ccc;}
-.box6 {height: 50px; width: 50px; background: #ccc;}
-.box7 {height: 50px; width: 50px; background: #ccc;}
-.box8 {height: 50px; width: 50px; background: #ccc;}
-.box9 {height: 50px; width: 50px; background: #ccc;}
+.bigBox{height: 500px; width: 600px; margin: 0px auto;}
+.box1 {height: 50px; width: 50px; background: #ccc; float: left;}
+.box2 {height: 50px; width: 500px; background: #dfd; float: left;}
+.box3 {height: 50px; width: 50px; background: #ccc; float: right;}
+.box4 {height: 100%; width: 50px; background: #dfd; float: left;}
+.mid {float: left; width: 400px; margin: 0px 50px;}
+.box6 {height: 100%; width: 50px; background: #dfd; float: right;}
+.box7 {height: 50px; width: 50px; background: #ccc; float: left;}
+.box8 {height: 50px; width: 500px; background: #dfd; float: left;}
+.box9 {height: 50px; width: 50px; background: #ccc; float: right;}
