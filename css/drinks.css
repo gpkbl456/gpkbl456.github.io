@@ -6,7 +6,7 @@
 .box3 {height: 50px; width: 50px; background: #2f2525; float: right;}
 .box3 img {height: 50px; width: 50px;}
 .box4 {height: 100%; width: 50px; background: #2f2525; float: left;}
-.box4 img {height: 100%; width: 50px;}
+.box4 img {height: 100%; width: 37px; float: left;}
 .mid {float: left; width: 400px; margin: 0px 50px;}
 .box6 {height: 100%; width: 50px; background: #2f2525; float: right;}
 .box6 img {height: 100%; width: 50px;}
@@ -18,3 +18,4 @@
 .box9 img {height: 50px; width: 50px;}
 a {color: #fdf9d6; text-decoration: none;}
 a:hover {text-decoration: underline;}
+.border {height: 500px; width: 500px; background: #2f2525; float: left; text-align: center;}
