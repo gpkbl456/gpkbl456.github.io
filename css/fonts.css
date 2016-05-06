@@ -4,5 +4,5 @@
                    url('/fonts/UntitledTTF.svg#UntitledTTF') format('svg');
               font-weight: bold;}
 body {background-image: url('/img/background/snow.jpg'); background-repeat: no-repeat; height: 100%;}
-a {color: #fdf9d6; text-decoration: none; font-family: 'newFont';}
+a {color: #fdf9d6; text-decoration: none; font-family: 'newFont'; font-size: 2.5em;}
 a:hover {text-decoration: underline;}
