@@ -1,8 +1,12 @@
 .bigBox{height: 500px; width: 600px; margin: 0px auto;}
 .box1 {height: 50px; width: 50px; background: #ccc; float: left;}
+.box1 img {height: 50px; width: 50px;}
 .box2 {height: 50px; width: 500px; background: #dfd; float: left;}
+.box2 img {height: 50px; width: 500px;}
 .box3 {height: 50px; width: 50px; background: #ccc; float: right;}
+.box3 img {height: 50px; width: 50px;}
 .box4 {height: 100%; width: 50px; background: #dfd; float: left;}
+.box4 img {height: 100%; width: 50px;}
 .mid {float: left; width: 400px; margin: 0px 50px;}
 .box6 {height: 100%; width: 50px; background: #dfd; float: right;}
 .box7 {height: 50px; width: 50px; background: #ccc; float: left;}
