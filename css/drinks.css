@@ -1,18 +1,20 @@
-.bigBox{height: 500px; width: 600px; margin: 0px auto;}
-.box1 {height: 50px; width: 50px; background: #ccc; float: left;}
+.bigBox{height: 500px; width: 600px; #fff384; margin: 0px auto;}
+.box1 {height: 50px; width: 50px; background: #2f2525; float: left;}
 .box1 img {height: 50px; width: 50px;}
-.box2 {height: 50px; width: 500px; background: #dfd; float: left;}
+.box2 {height: 50px; width: 500px; background: #2f2525; float: left;}
 .box2 img {height: 50px; width: 500px;}
-.box3 {height: 50px; width: 50px; background: #ccc; float: right;}
+.box3 {height: 50px; width: 50px; background: #2f2525; float: right;}
 .box3 img {height: 50px; width: 50px;}
-.box4 {height: 100%; width: 50px; background: #dfd; float: left;}
+.box4 {height: 100%; width: 50px; background: #2f2525; float: left;}
 .box4 img {height: 100%; width: 50px;}
 .mid {float: left; width: 400px; margin: 0px 50px;}
-.box6 {height: 100%; width: 50px; background: #dfd; float: right;}
+.box6 {height: 100%; width: 50px; background: #2f2525; float: right;}
 .box6 img {height: 100%; width: 50px;}
-.box7 {height: 50px; width: 50px; background: #ccc; float: left;}
+.box7 {height: 50px; width: 50px; background: #2f2525; float: left;}
 .box7 img {height: 50px; width: 50px}
-.box8 {height: 50px; width: 500px; background: #dfd; float: left;}
+.box8 {height: 50px; width: 500px; background: #2f2525; float: left;}
 .box8 img {height: 50px; width: 500px;}
-.box9 {height: 50px; width: 50px; background: #ccc; float: right;}
+.box9 {height: 50px; width: 50px; background: #2f2525; float: right;}
 .box9 img {height: 50px; width: 50px;}
+a {color: #fdf9d6; text-decoration: none;}
+a:hover {text-decoration: underline;}
