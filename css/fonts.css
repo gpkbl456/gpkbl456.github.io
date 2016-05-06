@@ -3,3 +3,4 @@
                    url('/fonts/UntitledTTF.ttf') format('truetype'),
                    url('/fonts/UntitledTTF.svg#UntitledTTF') format('svg');
               font-weight: bold;}
+body {background-image: url('/img/background/snow.jpg'); background-repeat: no-repeat;}
