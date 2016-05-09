@@ -1,5 +1,4 @@
-.container {border-bottom: 1px solid #eee;}
+.mid {border-bottom: 1px solid #eee;}
 img {border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; width: 100%;}
-.box {border: 1px solid #eee; box-sizing: border-box; border-radius: 5px;}
-.Thumbnail {text-align: center; margin: 0px auto;}
+.Thumbnail {text-align: center; border: 1px solid #eee; box-sizing: border-box;0px auto; border-radius: 5px; padding: 4px; margin: -4px;}
 .caption {padding: 18px;}
