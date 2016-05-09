@@ -1,5 +1,5 @@
 .container {border-bottom: 1px solid #eee;}
 img {border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; width: 100%;}
 .box {border: 1px solid #eee; box-sizing: border-box; border-radius: 5px;}
-.Thumbnail {width: 264px;}
+.Thumbnail {width: 264px; text-align: center;}
 .captoin {padding: 18px;}
