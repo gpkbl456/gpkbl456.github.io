@@ -2,4 +2,4 @@
 img {border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; width: 100%;}
 .Thumbnail {text-align: center; border: 1px solid #eee; box-sizing: border-box; border-radius: 5px; padding: 4px; margin: -4px;}
 .caption {padding: 18px;}
-.box {padding: 15px;}
+.box {padding: 0px 15px 15px 15px;}
