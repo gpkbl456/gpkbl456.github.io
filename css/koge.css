@@ -2,3 +2,4 @@ ul li {float: right; display: block; background-color: #9a5927; width: 150px; te
         line-height: 50px; font-size: 14px; }
 ul li a {color: #f9f59a; text-decoration: none; }
 .nav {float: left;}
+ul li ul {display: none;}
