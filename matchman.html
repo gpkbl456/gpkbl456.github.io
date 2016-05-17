@@ -8,7 +8,7 @@
     </style>
     <title>practicejs</title>
     <style>
-      .sbtn { visibility: hidden;}
+      .sbtn {display:none;}
     </style>
 </head>
 
@@ -24,7 +24,7 @@
 <script>
 function start() {
   document.getElementById('start').style.display="none";
-  document.getElementsByClassName('sbtn').style.visibility='visible';
+  document.getElementsByClassName('sbtn').style.display="initial";
 };
   function changeScene(choose) {
     if (choose == 1) {
