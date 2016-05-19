@@ -21,9 +21,11 @@
   function changeScene(choose) {
     var img = document.getElementById('sceneimg').src;
     img = img.match(/\d/);
+    alert(img);
     if (img == 0) {
       document.getElementById('sceneimg').src="/img/matchman/scene1.png"
     }else {
+
       alert(img);
       img = document.getElementById('sceneimg').src;
       img = img.match(/\d/);
