@@ -21,35 +21,35 @@
   function changeScene(choose) {
     var img = document.getElementById('sceneimg').src;
     img = img.match(/scene\d/);
-    if (img == 0) {
+    if (img == "scene0") {
       document.getElementById('sceneimg').src="/img/matchman/scene1.png"
     }else {
       img = document.getElementById('sceneimg').src;
       img = img.match(/scene\d/);
       if (choose == 1) {
-        if (img == scene1) {
+        if (img == "scene1") {
           document.getElementById('sceneimg').src="/img/matchman/scene2.png"
-        }else if (img == scene2) {
+        }else if (img == "scene2") {
           document.getElementById('sceneimg').src="/img/matchman/scene4.png"
-        }else if (img == scene3) {
+        }else if (img == "scene3") {
           document.getElementById('sceneimg').src="/img/matchman/scene6.png"
-        }else if (img == scene4) {
+        }else if (img == "scene4") {
           document.getElementById('sceneimg').src="/img/matchman/scene8.png"
-        }else if (img == scene7) {
+        }else if (img == "scene7") {
           document.getElementById('sceneimg').src="/img/matchman/scene9.png"
         }else {
           return;
         }
       }else if (choose == 2){
-        if (img == scene1) {
+        if (img == "scene1") {
           document.getElementById('sceneimg').src="/img/matchman/scene3.png"
-        }else if (img == scene2) {
+        }else if (img == "scene2") {
           document.getElementById('sceneimg').src="/img/matchman/scene5.png"
-        }else if (img == scene3) {
+        }else if (img == "scene3") {
           document.getElementById('sceneimg').src="/img/matchman/scene7.png"
-        }else if (img == scene4) {
+        }else if (img == "scene4") {
           document.getElementById('sceneimg').src="/img/matchman/scene5.png"
-        }else if (img == scene7) {
+        }else if (img == "scene7") {
           document.getElementById('sceneimg').src="/img/matchman/scene6.png"
         }else {
           return;
