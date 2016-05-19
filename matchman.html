@@ -23,6 +23,7 @@
     if (img.match(/scene0/) != null) {
       document.getElementById('sceneimg').src="/img/matchman/scene1.png"
     }else {
+      alert(img);
       img = document.getElementById('sceneimg').src;
       img = img.match(/\d/);
       alert(img);
