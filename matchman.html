@@ -21,14 +21,14 @@
   function changeScene(choose) {
     var img = document.getElementById('sceneimg').src;
     alert(img);
-    img = img.match(/\D/);
+    img = img.match(/\d/);
     alert(img);
     if (img == 0) {
       document.getElementById('sceneimg').src="/img/matchman/scene1.png"
     }else {
       img = document.getElementById('sceneimg').src;
       alert(img);
-      img = img.match(/\D/);
+      img = img.match(/\d/);
       alert(img);
       if (choose == 1) {
         if (img == 1) {
