@@ -6,28 +6,22 @@
 
     <style type="text/css">
     </style>
-    <title>practicejs</title>
-    <style>
-      .sbtn {display: none;}
-    </style>
+    <title>matchman</title>
 </head>
 
 <body>
     <div class="gamescene">
         <img id="sceneimg" src="/img/matchman/scene0.png">
         <h3>Choose</h3>
-        <button id="start" type="button" name="button" onclick="start()">故事開始</button>
         <button class="sbtn" type="button" id="decision1" value="1" onclick="changeScene(1)">1</button>
         <button class="sbtn" type="button" id="decision2" value="2" onclick="changeScene(2)">2</button>
     </div>
 </body>
 <script>
-function start() {
-  document.getElementById('start').style.display="none";
-  document.getElementsByClassName('sbtn').style.display="";
-};
   function changeScene(choose) {
-    if (choose == 1) {
+    var img = document.getElementById('sceneimg').src;
+    alert(img);
+    if () {
 
     }
   };
