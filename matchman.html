@@ -20,10 +20,36 @@
 <script>
   function changeScene(choose) {
     var img = document.getElementById('sceneimg').src;
-    alert(img);
-    // if () {
-    //
-    // }
+    if (img.match(/scene0/) != null) {
+      document.getElementById('sceneimg').src="/img/matchman/scene1.png"
+    }else {
+      img = document.getElementById('sceneimg').src;
+      img = img.match(/\d/);
+      if (choose == 1) {
+        if (img == 1) {
+          document.getElementById('sceneimg').src="/img/matchman/scene2.png"
+        }else if (img == 2) {
+          document.getElementById('sceneimg').src="/img/matchman/scene4.png"
+        }else if (img == 3) {
+          document.getElementById('sceneimg').src="/img/matchman/scene6.png"
+        }else if (img == 4) {
+          document.getElementById('sceneimg').src="/img/matchman/scene8.png"
+        }else if (img == 7) {
+          document.getElementById('sceneimg').src="/img/matchman/scene9.png"
+        }
+      }else {
+        if (img == 1) {
+          document.getElementById('sceneimg').src="/img/matchman/scene3.png"
+        }else if (img == 2) {
+          document.getElementById('sceneimg').src="/img/matchman/scene5.png"
+        }else if (img == 3) {
+          document.getElementById('sceneimg').src="/img/matchman/scene7.png"
+        }else if (img == 4) {
+          document.getElementById('sceneimg').src="/img/matchman/scene5.png"
+        }else if (img == 7) {
+          document.getElementById('sceneimg').src="/img/matchman/scene6.png"
+        }
+    }
   };
 </script>
 </html>
