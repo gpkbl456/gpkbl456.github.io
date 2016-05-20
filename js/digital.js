@@ -42,8 +42,10 @@ function digital(box) {
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
     alert(bb);
+    alert(random);
     var rr= random.indexOf(bb);
     alert(rr);
+    alert(box);
     bb = box.indexOf(bb);
     alert(bb);
 
