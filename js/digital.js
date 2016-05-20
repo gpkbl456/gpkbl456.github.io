@@ -26,5 +26,9 @@ function cut() {
   }
 };
 function ok() {
+  alert(num_box.length);
   count = 1;
+  for (var i = 0; i < num_box.length; i++) {
+    var box=[];
+  }
 };
