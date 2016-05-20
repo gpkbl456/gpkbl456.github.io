@@ -19,7 +19,7 @@
         var s8 = 0;
         var s9 = 0;
         for (var i = 0; i < 4; i++) {
-          random.push(Math.random() * (9+1) + 1);
+          random.push(Math.floor(Math.random() * (9+1) + 1));
           if (random[i] == 0) {
             s0 = 1;
           }else if (random[i] == 1) {
