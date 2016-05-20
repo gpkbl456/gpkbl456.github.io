@@ -41,13 +41,14 @@ function digital(box) {
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
     itamp = box.indexOf(box[i]);
-    alert(itamp);
     for (var j = 0; j < box.length; j++) {
       jtamp = box.indexOf(box[j]);
       if (itamp == jtamp) {
         Acount++;
+        alert(Acount);
       }else if (itamp != jtamp) {
         Bcount++;
+        alert(Bcount);
       }
     }
   }
