@@ -49,6 +49,6 @@ function digital(box) {
     //   }else if (itamp ) {
     //
     //   }
-    // }
+    // }//
   }
 };
