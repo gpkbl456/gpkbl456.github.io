@@ -41,9 +41,11 @@ function digital(box) {
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
+    alert(bb);
     var rr= random.indexOf(bb);
+    alert(rr);
     bb = box.indexOf(bb);
-
+    alert(bb);
 
     if (bb == rr) {
       Acount++;
