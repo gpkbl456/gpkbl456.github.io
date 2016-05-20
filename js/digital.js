@@ -54,8 +54,8 @@ function digital(box) {
       continue;
     }
   }
-  for (var i = 0; i < box.length; i++) {
-    var div = document.getElementById("box" + count);
+  for (var i = 1; i < box.length+1; i++) {
+    var div = document.getElementById("box" + i);
      div.textContent = "";
   }
 
