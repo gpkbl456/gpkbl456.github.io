@@ -1,5 +1,3 @@
-document.ready(function () {
-  function num_btn(num) {
-    document.getElementById('p').value = num;
-  };
-});
+function num_btn(num) {
+  document.getElementById('p').value = num;
+};
