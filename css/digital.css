@@ -5,6 +5,8 @@
 .answer {height: 340px; width: 100%; float: left; text-align: center; font-size: 2em;}
 body {background-color: #aaa;}
 .num_btn {float:left; height:49px;width:100px;}
+.a {color: blue;}
+.b {color: red;}
 @font-face {
   font-family: '1979';
   src: url('/fonts/1979.eot');
