@@ -7,7 +7,6 @@ function num_btn(num) {
    }
 };
 function cut() {
-  alert(count);
   if (count == 5) {
     var div = document.getElementById("box" + (count - 1));
      div.textContent = "";
