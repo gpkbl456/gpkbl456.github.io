@@ -41,15 +41,11 @@ function digital(box) {
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
     itamp = box.indexOf(box[i]);
-    for (var j = 0; j < box.length; j++) {
-      jtamp = random.indexOf(random[j]);
-      if (itamp == jtamp) {
-        Acount++;
-        alert(Acount);
-      }else if (itamp != jtamp) {
-        Bcount++;
-        alert(Bcount);
-      }
+    jtamp = random.indexOf(random[i]);
+    if (itamp == jtamp) {
+      Acount++;
+    }else if (itamp != jtamp) {
+      Bcount++;
     }
   }
   var text = document.getElementsByClassName('answer');
