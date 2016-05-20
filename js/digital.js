@@ -54,6 +54,11 @@ function digital(box) {
       continue;
     }
   }
+  for (var i = 0; i < box.length; i++) {
+    var div = document.getElementById("box" + count);
+     div.textContent = "";
+  }
+
   var text = document.getElementById('answer');
   text.innerHTML = Acount + "<span class='a'>A</span>" + Bcount + "<span class='b'>B</span>";
 };
