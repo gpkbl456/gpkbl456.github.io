@@ -53,5 +53,5 @@ function digital(box) {
   alert('?');
   var text = document.getElementById('answer');
   alert(text);
-  text.textContent = Acount + "<span class='a'>A</span>" + Bcount + "<span class='b'>B</span>";
+  text.innerHTML = Acount + "<span class='a'>A</span>" + Bcount + "<span class='b'>B</span>";
 };
