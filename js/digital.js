@@ -29,7 +29,8 @@ function ok() {
   count = 1;
   var box=[];
   for (var i = 1; i < 5; i++) {
-    box.push(document.getElementById("box"+i));
+    var tambox = document.getElementById("box"+i)
+    box.push(tambox);
   }
   alert(box);
 };
