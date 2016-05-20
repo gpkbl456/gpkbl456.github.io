@@ -43,7 +43,7 @@ function digital(box) {
   var newRandom = random.join('');
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
-    var rr= newRandomrandom.indexOf(bb);
+    var rr= newRandom.indexOf(bb);
     bb = newBox.indexOf(bb);
 
     if (bb == rr) {
