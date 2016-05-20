@@ -45,7 +45,7 @@ function digital(box) {
     alert(box[i]);
     alert(itamp);
     var rr= random[i];
-    jtamp = random.indexOf(rr);
+    jtamp = random.indexOf(bb);
     alert(random[i]);
     alert(jtamp);
 
