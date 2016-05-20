@@ -44,10 +44,10 @@ function digital(box) {
     jtamp = random.indexOf(random[i]);
     if (itamp == jtamp) {
       Acount++;
-      alert(Acount);
+      alert(Acount+'a');
     }else if (itamp != jtamp) {
       Bcount++;
-      alert(Bcount);
+      alert(Bcount+'b');
     }
   }
   alert('?');
