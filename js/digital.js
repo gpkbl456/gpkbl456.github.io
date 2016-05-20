@@ -1,3 +1,3 @@
 function num_btn(num) {
-  document.getElementById('num_box').value = num;
+  document.getElementsByClassName('num_box').value = num;
 };
