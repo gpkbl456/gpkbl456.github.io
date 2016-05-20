@@ -41,7 +41,12 @@ function digital(box) {
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
     itamp = box.indexOf(box[i]);
+    alert(box[i]);
+    alert(itamp);
     jtamp = random.indexOf(random[i]);
+    alert(random[i]);
+    alert(jtamp);
+
     if (itamp == jtamp) {
       Acount++;
     }else if (itamp != jtamp) {
