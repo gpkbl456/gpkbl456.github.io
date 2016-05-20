@@ -32,7 +32,7 @@ function ok() {
     var tambox = document.getElementById("box"+i);
     box.push(tambox.textContent);
   }
-  digital(box)
+  digital(box);
 };
 function digital(box) {
   var itamp;
