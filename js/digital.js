@@ -39,6 +39,8 @@ function digital(box) {
   var jtamp
   var Acount=0;
   var Bcount=0;
+  box=box.join('');
+  random= random.join('');
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
     alert(bb);
