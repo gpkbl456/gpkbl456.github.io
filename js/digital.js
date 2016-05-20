@@ -4,3 +4,11 @@ function num_btn(num) {
    div.textContent = num;
    count++;
 };
+function cut() {
+  var div = document.getElementById("box" + count);
+   div.textContent = "";
+   count--;
+};
+function ok() {
+  count = 1;
+};
