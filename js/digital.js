@@ -32,5 +32,23 @@ function ok() {
     var tambox = document.getElementById("box"+i);
     box.push(tambox.textContent);
   }
-  alert(box);
+  digital(box)
+};
+function digital(box) {
+  var itamp;
+  var jtamp
+  var Acount=0;
+  var Bcount=0;
+  for (var i = 0; i < box.length; i++) {
+    itamp = box.indexOf(box[i]);
+    alert(itamp);
+    // for (var j = 0; j < box.length; j++) {
+    //   jtamp = box.indexOf(box[j]);
+    //   if (itamp == jtamp) {
+    //     Acount++;
+    //   }else if (itamp ) {
+    //
+    //   }
+    // }
+  }
 };
