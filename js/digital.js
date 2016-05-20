@@ -5,6 +5,7 @@ function num_btn(num) {
    count++;
 };
 function cut() {
+  alert(count);
   if (count == 4) {
     var div = document.getElementById("box" + count);
      div.textContent = "";
