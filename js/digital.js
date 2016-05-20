@@ -40,10 +40,12 @@ function digital(box) {
   var Acount=0;
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
-    itamp = box.indexOf(box[i]);
+    var bb= box[i];
+    itamp = box.indexOf(bb);
     alert(box[i]);
     alert(itamp);
-    jtamp = random.indexOf(random[i]);
+    var rr= random[i];
+    jtamp = random.indexOf(rr);
     alert(random[i]);
     alert(jtamp);
 
