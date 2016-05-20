@@ -48,6 +48,8 @@ function digital(box) {
       Acount++;
     }else if (bb != rr) {
       Bcount++;
+    }else if (rr = -1) {
+      continue;
     }
   }
   var text = document.getElementById('answer');
