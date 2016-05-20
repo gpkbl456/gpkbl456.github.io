@@ -5,9 +5,9 @@ function num_btn(num) {
    count++;
 };
 function cut() {
-  var div = document.getElementById("box" + (count-1));
+  count - 1;
+  var div = document.getElementById("box" + count);
    div.textContent = "";
-   count - 2;
 };
 function ok() {
   count = 1;
