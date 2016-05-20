@@ -46,7 +46,7 @@ function digital(box) {
 
     if (bb == rr) {
       Acount++;
-    }else if (bb != rr) {
+    }else if (bb != rr && rr != -1) {
       Bcount++;
     }else if (rr = -1) {
       continue;
