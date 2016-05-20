@@ -41,6 +41,7 @@ function digital(box) {
   var Bcount=0;
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
+    bb = box.indexOf(bb);
     var rr= random.indexOf(bb);
 
 
