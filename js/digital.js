@@ -51,7 +51,7 @@ function digital(box) {
     }
   }
   alert('?');
-  var text = document.getElementsByClassName('answer');
+  var text = document.getElementById('answer');
   alert(text);
   text.textContent = Acount + "A" + Bcount + "B";
 };
