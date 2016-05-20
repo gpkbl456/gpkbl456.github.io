@@ -11,15 +11,15 @@ function cut() {
   if (count == 4) {
     var div = document.getElementById("box" + count);
      div.textContent = "";
-     count -1 ;
+     count = count-1 ;
   }else if (count == 3) {
     var div = document.getElementById("box" + count);
      div.textContent = "";
-     count -1 ;
+     count = count-1 ;
   }else if (count == 2) {
     var div = document.getElementById("box" + count);
      div.textContent = "";
-     count -1 ;
+     count = count-1 ;
   }else if (count == 1) {
     var div = document.getElementById("box" + count);
      div.textContent = "";
