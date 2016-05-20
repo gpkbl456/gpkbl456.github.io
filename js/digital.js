@@ -42,13 +42,15 @@ function digital(box) {
   for (var i = 0; i < box.length; i++) {
     itamp = box.indexOf(box[i]);
     alert(itamp);
-    // for (var j = 0; j < box.length; j++) {
-    //   jtamp = box.indexOf(box[j]);
-    //   if (itamp == jtamp) {
-    //     Acount++;
-    //   }else if (itamp ) {
-    //
-    //   }
-    // }//
+    for (var j = 0; j < box.length; j++) {
+      jtamp = box.indexOf(box[j]);
+      if (itamp == jtamp) {
+        Acount++;
+      }else if (itamp != jtamp) {
+        Bcount++;
+      }
+    }
   }
+  var text = document.getElementsByClassName('answer');
+  text.textContent = Acount + "A" + Bcount + "B";
 };
