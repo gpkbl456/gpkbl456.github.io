@@ -26,9 +26,10 @@ function cut() {
   }
 };
 function ok() {
-  alert(num_box.length);
   count = 1;
-  for (var i = 0; i < num_box.length; i++) {
-    var box=[];
+  var box=[];
+  for (var i = 1; i < 5; i++) {
+    box.push(document.getElementById("box"+i);
   }
+  alert(box);
 };
