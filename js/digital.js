@@ -39,12 +39,12 @@ function digital(box) {
   var jtamp
   var Acount=0;
   var Bcount=0;
-  box=box.join('');
-  random= random.join('');
+  var newBox = box.join('');
+  var newRandom = random.join('');
   for (var i = 0; i < box.length; i++) {
     var bb= box[i];
-    var rr= random.indexOf(bb);
-    bb = box.indexOf(bb);
+    var rr= newRandomrandom.indexOf(bb);
+    bb = newBox.indexOf(bb);
 
     if (bb == rr) {
       Acount++;
