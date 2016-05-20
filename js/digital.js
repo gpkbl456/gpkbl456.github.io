@@ -44,10 +44,14 @@ function digital(box) {
     jtamp = random.indexOf(random[i]);
     if (itamp == jtamp) {
       Acount++;
+      alert(Acount);
     }else if (itamp != jtamp) {
       Bcount++;
+      alert(Bcount);
     }
   }
+  alert('?');
   var text = document.getElementsByClassName('answer');
+  alert(text);
   text.textContent = Acount + "A" + Bcount + "B";
 };
