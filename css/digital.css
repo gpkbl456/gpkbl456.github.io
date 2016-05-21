@@ -2,11 +2,9 @@
 .num_box {background-color: #eee; width: 100px; height: 100px; float: left; border: 1px red solid;
           margin: 19px;font-family: 'a979','1979'; font-size: 6em; text-align: center;}
 .number {float: left;width: 350px;height: 29%;text-align: center;margin-left: 130px;}
-.answer {height: 340px; width: 100%; float: left; text-align: center; font-size: 2em;}
+.answer {height: 340px; width: 100%; float: left;}
 body {background-color: #aaa;}
 .num_btn {float:left; height:49px;width:100px;}
-.a {color: blue;}
-.b {color: red;}
 @font-face {
   font-family: '1979';
   src: url('/fonts/1979.eot');
