@@ -31,13 +31,13 @@
       while (count != 36) {
         var seat = document.getElementById("seat" + count).src;
         if ("seat"+count == "seat"+seat_num) {
-          alert("1");
           seat_get =0;
           seat_change =[];
           seat_num = seat_num + 8;
         }else {
-          alert("2");
           if (seat.match(/seat\_avail/) != null) {
+            alert(seat.match(/seat\_avail/));
+            alert(seat_get);
             switch (seat_get) {
               case 0:
                 seat_get ++;
