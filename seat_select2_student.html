@@ -18,7 +18,7 @@
     function initSeats() {
         for (var row = 0; row < seats.length; row++)
             for (var col = 0; col < seats[row].length; col++) {
-                var seatImage = "seat_" + ((seats[row][col]) ? "avail" : "unavail") + ".png"; //設定座位圖片，使用三元運算子
+                var seatImage = "seat_" + ((seats[row][col]) ? "/img/seat/avail" : "/img/seat/unavail") + ".png"; //設定座位圖片，使用三元運算子
                 document.getElementById("seat" + (row * seats[row].length + col)).src = seatImage;
             }
     }
