@@ -27,34 +27,39 @@
       var seat_get = 0;
       var count =0;
       var seat_change =[];
+      var seat_num = 8;
       while (count != 36) {
         var seat = document.getElementById("seat" + count).src;
-        alert(seat.match(/seat\_avail/));
-        if (seat.match(/seat\_avail/) != null) {
-          alert(seat_get);
-          switch (seat_get) {
-            case 0:
-              seat_get ++;
-              seat_change.push(count);
-              break;
-            case 1:
-              seat_get ++;
-              seat_change.push(count);
-              break;
-            case 2:
-              seat_get ++;
-              seat_change.push(count);
-              break;
-            default:
-              for (var i = 0; i < seat_change.length; i++) {
-                document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
-              }
-              seat_get =0;
-              seat_change =[];
-          }
-        }else {
+        if ("seat"+count == "seat"+seat_num) {
           seat_get =0;
           seat_change =[];
+          seat_num = seat_num + 8;
+        }else {
+          if (seat.match(/seat\_avail/) != null) {
+            switch (seat_get) {
+              case 0:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+              case 1:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+              case 2:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+              default:
+                for (var i = 0; i < seat_change.length; i++) {
+                  document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
+                }
+                seat_get =0;
+                seat_change =[];
+            }
+          }else {
+            seat_get =0;
+            seat_change =[];
+          }
         }
         count ++;
       }
