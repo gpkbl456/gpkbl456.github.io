@@ -36,5 +36,37 @@
         <input type="button" id="findseats" value="Find Seats" onclick="findSeats();" />
     </div>
 </body>
+<script>
+function findSeats() {
+  var seat_get = 0;
+  var count =0;
+  var seat_change =[];
+  while (seat_get != 3) {
+    var seat = document.getElementById("seat" + count).src;
+    if (seat.match(/seat\_unavail/) != null) {
+      switch (seat_get) {
+        case 0:
+          seat_get ++;
+          seat_change.push(count);
+          break;
+        case 1:
+          seat_get ++;
+          seat_change.push(count);
+          break;
+        case 2:
+          seat_get ++;
+          seat_change.push(count);
+          break;
+      }
+    }else {
+      seat_get =0;
+      seat_get =[];
+    }
+  }
+  for (var i = 0; i < seat_change.length; i++) {
+    document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
+  }
+};
 
+</script>
 </html>
