@@ -45,6 +45,10 @@
               seat_get ++;
               seat_change.push(count);
               break;
+            default:
+              seat_get =0;
+              seat_change =[];
+              continue;
           }
         }else {
           seat_get =0;
