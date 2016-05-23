@@ -30,7 +30,7 @@
       var seat_num = 8;
       while (count != 36) {
         var seat = document.getElementById("seat" + count).src;
-        if ("seat"+count == "seat"+seat_num) {
+        if (count == seat_num) {
           seat_get =0;
           seat_change =[];
           seat_num = seat_num + 8;
