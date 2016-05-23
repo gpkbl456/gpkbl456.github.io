@@ -46,13 +46,13 @@
               seat_change.push(count);
               break;
             default:
+              for (var i = 0; i < seat_change.length; i++) {
+                document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
+              }
               seat_get =0;
               seat_change =[];
           }
         }else {
-          for (var i = 0; i < seat_change.length; i++) {
-            document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
-          }
           seat_get =0;
           seat_change =[];
         }
