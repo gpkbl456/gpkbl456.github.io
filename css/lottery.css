@@ -1,6 +1,7 @@
 div{
 	float:left;
 	border: solid #000 3px;
+	background-color: hsl(57, 100%, 95%);
 	text-align:left;
 }
 
