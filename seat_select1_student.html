@@ -43,10 +43,10 @@ function findSeats() {
   var seat_change =[];
   while (seat_get != 3) {
     var seat = document.getElementById("seat" + count).src;
-    alett(seat.match(/seat\_avail/));
+    alert(seat.match(/seat\_avail/));
     if (seat.match(/seat\_avail/) != null) {
       switch (seat_get) {
-        alett(seat_get);
+        alert(seat_get);
         case 0:
           seat_get ++;
           seat_change.push(count);
