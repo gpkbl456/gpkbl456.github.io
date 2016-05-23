@@ -21,11 +21,40 @@
                 var seatImage = "/img/seat/seat_" + ((seats[row][col]) ? "avail" : "unavail") + ".png"; //設定座位圖片，使用三元運算子
                 document.getElementById("seat" + (row * seats[row].length + col)).src = seatImage;
             }
-    }
+    };
 
     function findSeats() {
-
-    }
+      while (count != 36) {
+        while (seat_get != 3) {
+          var seat = document.getElementById("seat" + count).src;
+          alert(seat.match(/seat\_avail/));
+          if (seat.match(/seat\_avail/) != null) {
+            alert(seat_get);
+            switch (seat_get) {
+              case 0:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+              case 1:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+              case 2:
+                seat_get ++;
+                seat_change.push(count);
+                break;
+            }
+          }else {
+            seat_get =0;
+            seat_change =[];
+          }
+          count ++;
+        }
+        for (var i = 0; i < seat_change.length; i++) {
+          document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
+        }
+      }
+    };
     </script>
 </head>
 
