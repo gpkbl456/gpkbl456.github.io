@@ -43,6 +43,9 @@ function findSeats() {
   var seat_change =[];
   while (seat_get != 3) {
     var seat = document.getElementById("seat" + count).src;
+    alert(document.getElementById("seat" + count).src);
+    alert(seat);
+    alert(count);
     if (seat.match(/seat\_unavail/) != null) {
       switch (seat_get) {
         case 0:
