@@ -34,32 +34,32 @@
           seat_get =0;
           seat_change =[];
           seat_num = seat_num + 8;
-        }else {
-          if (seat.match(/seat\_avail/) != null) {
-            switch (seat_get) {
-              case 0:
-                seat_get ++;
-                seat_change.push(count);
-                break;
-              case 1:
-                seat_get ++;
-                seat_change.push(count);
-                break;
-              case 2:
-                seat_get ++;
-                seat_change.push(count);
-                for (var i = 0; i < seat_change.length; i++) {
-                  document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
-                }
-                alert(count);
-                seat_get =0;
-                seat_change =[];
-                break;
-            }
-          }else {
-            seat_get =0;
-            seat_change =[];
+          continue;
+        }
+        if (seat.match(/seat\_avail/) != null) {
+          switch (seat_get) {
+            case 0:
+              seat_get ++;
+              seat_change.push(count);
+              break;
+            case 1:
+              seat_get ++;
+              seat_change.push(count);
+              break;
+            case 2:
+              seat_get ++;
+              seat_change.push(count);
+              for (var i = 0; i < seat_change.length; i++) {
+                document.getElementById("seat" + seat_change[i]).src = "/img/seat/seat_select.png";
+              }
+              alert(count);
+              seat_get =0;
+              seat_change =[];
+              break;
           }
+        }else {
+          seat_get =0;
+          seat_change =[];
         }
         count ++;
       }
