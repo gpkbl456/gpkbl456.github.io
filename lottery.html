@@ -24,7 +24,7 @@
 					var discount = Math.floor((Math.random()*6)+5);
 					var discount_msg = "<p >Your Discount is "+discount+ "%</p>";
 					$(this).append(discount_msg);
-					$(this).('p').css('opacity', 0)
+					$(this,'p').css('opacity', 0)
   											.slideDown('slow')
   											.animate({ opacity: 1 },{ queue: false, duration: 'slow' });
 
