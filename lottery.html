@@ -31,7 +31,7 @@
 					for (var i = 1; i < 5; i++) {
 						alert(box[i-1].find("img").attr("src"));
 						alert(box[i-1].find("img").attr("src").match(/jump.+/));
-						if ("jump"+i == box[i-1].find("img").attr("src").match(/jump.+/)) {
+						if ("jump"+i+".jpg" == box[i-1].find("img").attr("src").match(/jump.+\.jpg/)) {
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box[i].append(discount_msg);
