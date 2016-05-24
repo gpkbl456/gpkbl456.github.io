@@ -25,18 +25,23 @@
 				// var box4 = box3.next();
 				var lottery = Math.floor((Math.random()*5)+1);
 				function lottery() {
+					console.log("ok");
 					for (var i = 1; i < 5; i++) {
+						console.log(i);
 						var box = $('#main').children().img.src;
 						if (i == box.match(/jump.+/)) {
+							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box+i.append(discount_msg);
 						}else {
+							console.log("gg");
 							var discount_msg = "<p>Please Try Again.</p>";
 							box+i.append(discount_msg);
 						}
 					}
 				};
 				$(".guess_box").click(function(){
+					console.log("click");
 					// $(this).append(discount_msg);
 					// $(this).find('p').css('opacity', 0)
   				// 							.slideDown('slow')
