@@ -28,9 +28,9 @@
 				box.push(box1,box2,box3,box4);
 				var lottery = Math.floor((Math.random()*5)+1);
 					console.log("ok");
-					for (var i = 0; i < 4; i++) {
+					for (var i = 1; i < 5; i++) {
 						alert(box[i].find("img").attr("src"));
-						if ("jump"+i+1 == box[i].find("img").attr("src").match(/jump.+/)) {
+						if ("jump"+i == box[i-1].find("img").attr("src").match(/jump.+/)) {
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box[i].append(discount_msg);
