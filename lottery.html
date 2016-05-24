@@ -21,9 +21,9 @@
 			$(document).ready(function(){
 				var main = $('#main').children();
 				var box1 = main.first().attr("src");
-				var box2 = box1.first().next().attr("src");;
-				var box3 = box2.first().next().next().attr("src");;
-				var box4 = box3.first().next().next().next().attr("src");;
+				var box2 = main.first().next().attr("src");;
+				var box3 = main.first().next().next().attr("src");;
+				var box4 = main.first().next().next().next().attr("src");;
 				var box = {box1,box2,box3,box4}
 				var lottery = Math.floor((Math.random()*5)+1);
 					console.log("ok");
