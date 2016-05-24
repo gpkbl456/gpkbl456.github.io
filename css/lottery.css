@@ -16,6 +16,11 @@ div{
 }
 
 #main{
-	background-color: gray;
+	background-color: hsl(57, 100%, 95%);
 	height: 500px;
+	border: dotted 3px #98a775;
+	text-align: center;
+	margin: 0px auto;
 }
+body {background-color: #90A775;
+    margin: 0px auto;}
