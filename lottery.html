@@ -33,11 +33,11 @@
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							console.log(box[i]);
-							box[i].append(discount_msg);
+							$('').append(discount_msg);
 						}else {
 							console.log("gg");
 							var discount_msg = "<p>Please Try Again.</p>";
-							box[i].append(discount_msg);
+							box[i-1].append(discount_msg);
 						}
 					}
 
