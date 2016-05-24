@@ -1,8 +1,7 @@
 div{
 	float:left;
-	border: solid #000 3px;
-	background-color: hsl(57, 100%, 95%);
-	text-align:left;
+	border: solid #E2E2E2 1px;
+	text-align: center;
 }
 
 .guess_box{
@@ -10,17 +9,18 @@ div{
 }
 
 #header{
- 	width:100%;
- 	border: 0px;
- 	height:50px;
+	width: 100%;
+	border: 0px;
+	height: 50px;
+	margin: 50px 0px -25px 0px;
 }
 
 #main{
 	background-color: hsl(57, 100%, 95%);
-	height: 500px;
-	border: dotted 3px #98a775;
-	text-align: center;
-	margin: 0px auto;
+  height: 500px;
+  border: dotted 3px #98a775;
+  text-align: center;
+  margin: 8% 24%;
 }
 body {background-color: #90A775;
     margin: 0px auto;}
