@@ -30,7 +30,7 @@
 					console.log("ok");
 					for (var i = 0; i < 4; i++) {
 						alert(box[i].find("img").attr("src"));
-						if ("jump"+(i+1) == box[i].find("img").attr("src").match(/jump.+/)) {
+						if ("jump"+i+1 == box[i].find("img").attr("src").match(/jump.+/)) {
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box[i].append(discount_msg);
