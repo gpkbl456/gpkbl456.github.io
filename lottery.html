@@ -19,12 +19,12 @@
 		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 		<script>
 			$(document).ready(function(){
-				// var box1 = $('#main').children().first();
-				// var box2 = box1.next();
-				// var box3 = box2.next();
-				// var box4 = box3.next();
+				var box1 = $('#main').children().first();
+				var box2 = box1.next();
+				var box3 = box2.next();
+				var box4 = box3.next();
+				var box = {box1,box2,box3,box4}
 				var lottery = Math.floor((Math.random()*5)+1);
-				function lottery() {
 					console.log("ok");
 					for (var i = 1; i < 5; i++) {
 						console.log(i);
@@ -39,7 +39,7 @@
 							box+i.append(discount_msg);
 						}
 					}
-				};
+
 				$(".guess_box").click(function(){
 					console.log("click");
 					// $(this).append(discount_msg);
