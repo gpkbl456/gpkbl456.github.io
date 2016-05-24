@@ -23,13 +23,12 @@
 				var box1 = main.first().attr("src");
 				var box2 = main.first().next().attr("src");;
 				var box3 = main.first().next().next().attr("src");;
-				var box4 = main.first().next().next().next().attr("src");;
-				var box = {box1,box2,box3,box4}
+				var box4 = main.first().next().next().next().attr("src");
 				var lottery = Math.floor((Math.random()*5)+1);
 					console.log("ok");
 					for (var i = 1; i < 5; i++) {
 						console.log(i);
-						if ("jump"+i == box[i].match(/jump.+/)) {
+						if ("jump"+i == "box"+i.match(/jump.+/)) {
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box+i.append(discount_msg);
