@@ -29,7 +29,7 @@
 					console.log("ok");
 					for (var i = 1; i < 5; i++) {
 						console.log(i);
-						if (box[i] == box.match(/jump.+/)) {
+						if ("jump"+i == box[i].match(/jump.+/)) {
 							console.log("yes");
 							var discount_msg = "<p>Your Discount is 20%.</p>";
 							box+i.append(discount_msg);
