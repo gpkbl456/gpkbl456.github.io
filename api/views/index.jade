@@ -1,0 +1,18 @@
+doctype html
+html
+ head
+  title= 'test_api'
+ body(style="background-color: #ac8;")
+  div(style="text-align: center;margin-top: 20%;")
+    if(username && authenticated)
+      a(href="users/logOut") 登出
+    else
+      a(href="users/login",style="padding-left: 10px;padding-right: 15px;") 登入
+      a(href="users/register",style="padding-left: 10px;padding-right: 15px;") 註冊
+    h1= 'hello! '+ title
+    
+  for image in images
+    div= image.Username
+    div= image.image
+      
+    

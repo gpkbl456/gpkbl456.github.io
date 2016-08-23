@@ -1,0 +1,19 @@
+doctype html
+html
+ head
+  title= '登入'
+  script(src="/js/jquery-3.1.0.min.js")
+  script(src="/js/log.js")
+ body(style="background-color: #ac8;")
+  div(style="text-align: center; margin: 16%;")
+    h1= '登入'
+    div
+      a(href="/",style="padding-left: 10px;padding-right: 15px;") 首頁
+      a(href="./register",style="padding-left: 10px;padding-right: 15px;") 註冊
+    div(name="login")
+      p= '帳號：'
+        input(type="text",name="username",value="",style="margin-left: 4px;")
+      p= '密碼：'
+        input(type="password",name="passwd",value="",style="margin-left: 4px;")
+      div
+        input(type="submit",name="submit",onclick="login()")
