@@ -1,2 +1,0 @@
-$('#block').block();
-$('#block').unblock();

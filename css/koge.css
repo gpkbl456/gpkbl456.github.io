@@ -1,9 +1,0 @@
-ul li {float: right; display: block; background-color: #9a5927; width: 150px; text-align: center;
-        line-height: 50px; font-size: 14px; }
-ul li a {color: #f9f59a; text-decoration: none; }
-.nav {float: left;}
-ul li ul {display: none;}
-ul li:hover ul {display: block;}
-ul li:hover {background-color: #ba4947;}
-ul li ul li:hover {background-color: #f9f59a;}
-ul li ul li:hover a {color: #9a5927;}
